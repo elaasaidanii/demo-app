@@ -1,0 +1,10 @@
+name: ci
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  secureflow:
+    uses: elaasaidanii/secureflow/.github/workflows/hello.yml@main
+    with:
+      name: demo-app
