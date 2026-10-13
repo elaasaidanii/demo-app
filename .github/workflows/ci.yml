@@ -4,7 +4,9 @@ on:
 permissions:
   contents: read
 jobs:
-  secureflow:
+  hello:
     uses: elaasaidanii/secureflow/.github/workflows/hello.yml@main
     with:
       name: demo-app
+  secrets:
+    uses: elaasaidanii/secureflow/.github/workflows/scan-secrets.yml@main
