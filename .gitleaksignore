@@ -1,0 +1,2 @@
+# Fake AWS key used only for the Gitleaks demo (commit 5939574). Not a real credential.
+5939574da4efc9f23e8e883b8a7e3056f14c0577:config.txt:aws-access-token:1
