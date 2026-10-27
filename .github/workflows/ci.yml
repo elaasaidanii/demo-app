@@ -10,3 +10,5 @@ jobs:
       name: demo-app
   secrets:
     uses: elaasaidanii/secureflow/.github/workflows/scan-secrets.yml@main
+  sast:
+    uses: elaasaidanii/secureflow/.github/workflows/scan-sast.yml@main
